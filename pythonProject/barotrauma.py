@@ -1,5 +1,7 @@
 import requests
+import re
 from bs4 import BeautifulSoup
+import json
 
 # URL of the crafting page
 url = "https://barotraumagame.com/wiki/Crafting"
@@ -39,16 +41,24 @@ if response.status_code == 200:
                     # print(cell)
                     ingredient_number = 0
                     for ingredient in cell:
-
+                        # print(ingredient)
                         if ingredient.text:
                             text = ingredient.text.replace('\n', '').strip()
                             if text == "":
                                 continue
-                            if "(x" in text:
-                                amount = text[2]
-                                print(f"Amount: {text}")
+                            pattern = r'\(x\d+\)|x\d+'
+                            if re.search(pattern, text):
+                                # print(text)
+                                if "(" in text:
+                                    text = text.replace('(', '').replace(')', '')
+
+                                amount = text.replace('x', '')
+                                # amount = text[2]
+                                print(f"Amount: {amount}")
                                 last_item = list(ingredients.keys())[-1]
                                 ingredients[last_item]["amount"] = amount
+                            elif "(produces" in text:
+                                pass
                             else:
                                 print(f"Ingredient: {text}")
                                 item = text
@@ -74,6 +84,15 @@ if response.status_code == 200:
         print(recipe)
         print(crafting_recipes[recipe])
         print("---------------------------------------------------")
+
+
+    # Convert dictionary to JSON string with indentation for readability
+    json_data = json.dumps(crafting_recipes, indent=4)
+
+    # Save JSON data to a file
+    with open('crafting_recipes.json', 'w') as json_file:  # 'w' mode for writing
+        json_file.write(json_data)
+
 
 else:
     print(f"Failed to retrieve the page. Status code: {response.status_code}")
