@@ -207,9 +207,9 @@ document.addEventListener('DOMContentLoaded', function () {
             searchSuggestions.push(matchingIngredients);
             console.log(searchSuggestions[0])
             displayData(searchSuggestions[0])
-         }// else {
-        //     displayData(recipes)
-        // }
+         } else {
+             displayData(recipes)
+         }
     })
     suggestionsContainer.innerHTML = ''; // Clear previous suggestions
 
