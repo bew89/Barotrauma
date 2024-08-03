@@ -19,7 +19,18 @@ function getData() {
 
 }
 
-function displayData(recipes){
+function replaceData(item) {
+    let editedItem = item.replace(' ', "_");
+
+    for (let i = 0; i < editedItem.length; i++) {
+        if (i === editedItem.length - 1) {
+            editedItem[i].replace('')
+        }
+    }
+    return editedItem
+}
+
+function displayData(recipes) {
     const tableBody = document.querySelector('#recipesTable tbody');
     //Clear the contents of the table
     tableBody.innerHTML = '';
@@ -30,14 +41,48 @@ function displayData(recipes){
         //Create a row for the name and add it to the row
         const row = document.createElement('tr');
         const name = document.createElement('td');
-        const img = document.createElement('img');
-        img.src = `images/Zinc.png`;
-        img.style.width = '50px';
-        img.style.height = 'auto';
-        name.textContent = recipeName;
+        const productImg = document.createElement('img');
+        const productImg2 = document.createElement('img');
+
+        productImg.src = `images/${recipeName.trim()}.png`;
+        productImg.alt = recipeName;
+        productImg.style.width = '50px';
+        productImg.style.height = 'auto';
+
+        let editedProduct = replaceData(recipeName);
+        productImg2.src = `images/${editedProduct.trim()}.png`;
+        productImg2.alt = editedProduct;
+        productImg2.style.width = '50px';
+        productImg2.style.height = 'auto';
+
+        function checkImage(src, imgElement, callback) {
+            const img = new Image();
+            img.onload = () => {
+                imgElement.src = src;
+                imgElement.alt = recipeName;
+                imgElement.style.width = '50px';
+                imgElement.style.height = 'auto';
+                callback(true);
+            };
+            img.onerror = () => callback(false);
+            img.src = src;
+        }
+
+        checkImage(productImg.src, productImg, (isValid) => {
+            if (isValid) {
+                name.appendChild(productImg);
+            }else{
+                name.appendChild(productImg2)
+            }
+        });
+
+        // checkImage(productImg2.src, productImg2, (isValid) => {
+        //     if (isValid) {
+        //         name.appendChild(productImg2);
+        //     }
+        // });
 
         row.appendChild(name);
-        // row.appendChild(img);
         // console.log(recipe.name)
         // console.log(name)
 
@@ -63,8 +108,8 @@ function displayData(recipes){
             //         editedIngredient[i].replace("_");
             //     }
             // }
-            for(let i = 0; i < editedIngredient.length; i++) {
-                if(i === editedIngredient.length - 1) {
+            for (let i = 0; i < editedIngredient.length; i++) {
+                if (i === editedIngredient.length - 1) {
                     editedIngredient[i].replace('')
                 }
             }
@@ -142,12 +187,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (query) {
             let searchSuggestions = [];
-                // const matchingIngredients = Object.keys(recipes)
-                //     .filter(productName => productName.toLowerCase().startsWith(query.toLowerCase()))
-                //     .reduce((acc, productName) => {
-                //         acc[productName] = recipes[productName];
-                //         return acc;
-                //     }, {});
+            // const matchingIngredients = Object.keys(recipes)
+            //     .filter(productName => productName.toLowerCase().startsWith(query.toLowerCase()))
+            //     .reduce((acc, productName) => {
+            //         acc[productName] = recipes[productName];
+            //         return acc;
+            //     }, {});
             const matchingIngredients = Object.keys(recipes)
                 .filter(productName => {
                     // Check if the product name matches the query
@@ -163,19 +208,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     return acc;
                 }, {});
 
-                searchSuggestions.push(matchingIngredients);
+            searchSuggestions.push(matchingIngredients);
             console.log(searchSuggestions[0])
-            displaySpecificData(searchSuggestions[0])
-        }else{
-            displayData(recipes)
-        }
+            displayData(searchSuggestions[0])
+         }// else {
+        //     displayData(recipes)
+        // }
     })
-        suggestionsContainer.innerHTML = ''; // Clear previous suggestions
+    suggestionsContainer.innerHTML = ''; // Clear previous suggestions
 
-    })
+})
 
 
-function displaySpecificData(recipes){
+function displaySpecificData(recipes) {
     const tableBody = document.querySelector('#recipesTable tbody');
     //Clear the contents of the table
     tableBody.innerHTML = '';
@@ -210,7 +255,7 @@ function displaySpecificData(recipes){
 
 
         const ingredientsList = Object.keys(recipes[recipeName].ingredients).map(ingredient => {
-            return ingredientName = `${ingredient} (${recipes[recipeName].ingredients[ingredient].amount})` ;
+            return ingredientName = `${ingredient} (${recipes[recipeName].ingredients[ingredient].amount})`;
         });
 
         // const ingredientsList = Object.keys(recipes[recipeName].ingredients).map(ingredient => {
@@ -241,4 +286,5 @@ function displaySpecificData(recipes){
     })
 
 }
+
 getData()

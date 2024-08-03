@@ -874,16 +874,6 @@
             }
         }
     },
-    "Nuclear Depth Decoy (cheap)": {
-        "ingredients": {
-            "Nuclear Depth Charge (cheap)": {
-                "amount": 1
-            },
-            "Sonar Beacon": {
-                "amount": 1
-            }
-        }
-    },
     "Funbringer 3000": {
         "ingredients": {
             "Mother's Providence": {
@@ -1162,22 +1152,6 @@
                 "amount": "2"
             },
             "Sonar Beacon": {
-                "amount": 1
-            }
-        }
-    },
-    "Nuclear Depth Charge (cheap)": {
-        "ingredients": {
-            "Iron": {
-                "amount": "2"
-            },
-            "Fuel Rod": {
-                "amount": 1
-            },
-            "(>80%)": {
-                "amount": 1
-            },
-            "UEX": {
                 "amount": 1
             }
         }
