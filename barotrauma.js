@@ -46,22 +46,22 @@ function displayData(recipes) {
 
         productImg.src = `images/${recipeName.trim()}.png`;
         productImg.alt = recipeName;
-        productImg.style.width = '50px';
-        productImg.style.height = 'auto';
+        // productImg.style.width = '50px';
+        // productImg.style.height = 'auto';
 
         let editedProduct = replaceData(recipeName);
         productImg2.src = `images/${editedProduct.trim()}.png`;
         productImg2.alt = editedProduct;
-        productImg2.style.width = '50px';
-        productImg2.style.height = 'auto';
+        // productImg2.style.width = '50px';
+        // productImg2.style.height = 'auto';
 
         function checkImage(src, imgElement, callback) {
             const img = new Image();
             img.onload = () => {
                 imgElement.src = src;
                 imgElement.alt = recipeName;
-                imgElement.style.width = '50px';
-                imgElement.style.height = 'auto';
+                // imgElement.style.width = '50px';
+                // imgElement.style.height = 'auto';
                 callback(true);
             };
             img.onerror = () => callback(false);
@@ -114,13 +114,13 @@ function displayData(recipes) {
             console.log(editedIngredient);
             img.src = `images/${ingredient.trim()}.png`;
             img.alt = ingredient;
-            img.style.width = '25px';
-            img.style.height = 'auto';
+            // img.style.width = '25px';
+            // img.style.height = 'auto';
 
             img2.src = `images/${editedIngredient.trim()}.png`;
             img2.alt = ingredient;
-            img2.style.width = '25px';
-            img2.style.height = 'auto';
+            // img2.style.width = '25px';
+            // img2.style.height = 'auto';
 
             function checkImage(src, imgElement, callback) {
                 const img = new Image();

@@ -2053,13 +2053,6 @@
             }
         }
     },
-    "Deconstruction Yield": {
-        "ingredients": {
-            "Crafting Materials": {
-                "amount": 1
-            }
-        }
-    },
     "Calyx Extract": {
         "ingredients": {
             "Velonaceps Calyx Eggs": {

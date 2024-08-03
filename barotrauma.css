@@ -58,18 +58,49 @@ table th, table td {
 table th {
     background-color: #444;
     color: #f0f0f0;
+
 }
 
 table td {
     background-color: #2a2a2a;
     color: #f0f0f0;
     border-top: 1px solid #444;
-}
 
-table tr:nth-child(even) td {
-    background-color: #333;
 }
-
+div{
+    /*border: 1px solid red;*/
+}
 table tr:hover td {
     background-color: #555;
+}
+image {
+    border: 10px solid blueviolet;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .search-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #search-bar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #recipesTable th, #recipesTable td {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    img {
+        width: 25px;
+        height: auto;
+    }
 }
