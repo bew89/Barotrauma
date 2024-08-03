@@ -75,16 +75,11 @@ function displayData(recipes) {
                 name.appendChild(productImg2)
             }
         });
+        const textNode = document.createTextNode(recipeName);
 
-        // checkImage(productImg2.src, productImg2, (isValid) => {
-        //     if (isValid) {
-        //         name.appendChild(productImg2);
-        //     }
-        // });
-
+        name.appendChild(textNode);
         row.appendChild(name);
-        // console.log(recipe.name)
-        // console.log(name)
+
 
         //Create a section for the divs
         const fragment = document.createDocumentFragment();
@@ -154,6 +149,7 @@ function displayData(recipes) {
             // Add the image and the ingredient text to the div
             // line.appendChild(img);
             // line.appendChild(img2);
+
             const textNode = document.createTextNode(ingredient);
             line.appendChild(textNode);
 
