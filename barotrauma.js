@@ -1,5 +1,5 @@
 let recipes = {}
-
+let currentRecipe = {}
 function getData() {
     fetch('crafting_recipes.json')
         .then(response => {
@@ -31,6 +31,7 @@ function replaceData(item) {
 }
 
 function displayData(recipes) {
+    currentRecipe = recipes;
     const tableBody = document.querySelector('#recipesTable tbody');
     //Clear the contents of the table
     tableBody.innerHTML = '';
@@ -46,22 +47,17 @@ function displayData(recipes) {
 
         productImg.src = `images/${recipeName.trim()}.png`;
         productImg.alt = recipeName;
-        // productImg.style.width = '50px';
-        // productImg.style.height = 'auto';
 
         let editedProduct = replaceData(recipeName);
         productImg2.src = `images/${editedProduct.trim()}.png`;
         productImg2.alt = editedProduct;
-        // productImg2.style.width = '50px';
-        // productImg2.style.height = 'auto';
+
 
         function checkImage(src, imgElement, callback) {
             const img = new Image();
             img.onload = () => {
                 imgElement.src = src;
                 imgElement.alt = recipeName;
-                // imgElement.style.width = '50px';
-                // imgElement.style.height = 'auto';
                 callback(true);
             };
             img.onerror = () => callback(false);
@@ -83,12 +79,12 @@ function displayData(recipes) {
 
         //Create a section for the divs
         const fragment = document.createDocumentFragment();
-
+        let listOfIngredientAmounts = []
         const ingredients = document.createElement('td');
         const ingredientsList = Object.keys(recipe.ingredients).map(ingredient => {
+            listOfIngredientAmounts += (recipe.ingredients[ingredient].amount);
             return ingredientName = `${ingredient} `;//(${recipe.ingredients[ingredient].amount})` ;
         });
-
         //Go through each ingredient and append it to its own div so that it is on a different line
         for (const ingredient of ingredientsList) {
             const line = document.createElement('div');
@@ -98,11 +94,6 @@ function displayData(recipes) {
 
             let editedIngredient = ingredient.replace(' ', "_");
 
-            // for (let i = 0; i < ingredient.length; i++) {
-            //     if(editedIngredient[i] === ' '){
-            //         editedIngredient[i].replace("_");
-            //     }
-            // }
             for (let i = 0; i < editedIngredient.length; i++) {
                 if (i === editedIngredient.length - 1) {
                     editedIngredient[i].replace('')
@@ -146,11 +137,14 @@ function displayData(recipes) {
                     line.appendChild(img2);
                 }
             });
-            // Add the image and the ingredient text to the div
-            // line.appendChild(img);
-            // line.appendChild(img2);
 
-            const textNode = document.createTextNode(ingredient);
+            console.log(ingredient);
+            console.log(recipe.ingredients[ingredient.trim()]);
+            let multiplier = document.getElementById('amount').value;
+            if(multiplier <= 1) {
+                multiplier = 1;
+            }
+            const textNode = document.createTextNode(`${ingredient} (${recipe.ingredients[ingredient.trim()].amount * multiplier})`);
             line.appendChild(textNode);
 
             fragment.appendChild(line);
@@ -175,29 +169,23 @@ document.addEventListener('DOMContentLoaded', function () {
         let editedQuery = '';
 
         if (query.length > 0) {
-            editedQuery = query[0].toUpperCase(); // Capitalize the first letter
-            for (let i = 1; i < query.length; i++) {
+            // editedQuery = query[0].toUpperCase(); // Capitalize the first letter
+            for (let i = 0; i < query.length; i++) {
                 editedQuery += query[i].toLowerCase(); // Lowercase the rest
             }
         }
 
         if (query) {
             let searchSuggestions = [];
-            // const matchingIngredients = Object.keys(recipes)
-            //     .filter(productName => productName.toLowerCase().startsWith(query.toLowerCase()))
-            //     .reduce((acc, productName) => {
-            //         acc[productName] = recipes[productName];
-            //         return acc;
-            //     }, {});
             const matchingIngredients = Object.keys(recipes)
                 .filter(productName => {
                     // Check if the product name matches the query
-                    if (productName.toLowerCase().startsWith(query)) {
+                    if (productName.toLowerCase().startsWith(query.toLowerCase())) {
                         return true;
                     }
                     // Check if any of the ingredients match the query
                     const ingredients = recipes[productName].ingredients;
-                    return Object.keys(ingredients).some(ingredient => ingredient.toLowerCase().startsWith(query));
+                    return Object.keys(ingredients).some(ingredient => ingredient.toLowerCase().startsWith(query.toLowerCase()));
                 })
                 .reduce((acc, productName) => {
                     acc[productName] = recipes[productName];
@@ -213,74 +201,12 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     suggestionsContainer.innerHTML = ''; // Clear previous suggestions
 
+    const amount = document.getElementById('amount');
+
+    amount.addEventListener('input', function () {
+        displayData(currentRecipe);
+    })
 })
 
-
-function displaySpecificData(recipes) {
-    const tableBody = document.querySelector('#recipesTable tbody');
-    //Clear the contents of the table
-    tableBody.innerHTML = '';
-    Object.keys(recipes).forEach(recipeName => {
-        console.log(recipeName)
-
-        const recipe = recipeName;
-
-        //Create a row for the name and add it to the row
-        const row = document.createElement('tr');
-        const name = document.createElement('td');
-        name.textContent = recipeName;
-        row.appendChild(name);
-        console.log(name)
-
-        //Create a section for the divs
-        const fragment = document.createDocumentFragment();
-
-        const ingredients = document.createElement('td');
-        console.log("hello")
-        console.log("recipe.ingredients");
-        console.log(recipe.ingredients);
-
-        console.log("recipes[recipeName]");
-        console.log(recipes[recipeName]);
-
-        console.log("recipes[recipeName].ingredients")
-        console.log(recipes[recipeName].ingredients)
-
-        console.log("recipes[recipeName].ingredients.amount")
-        console.log(recipes[recipeName].ingredients)
-
-
-        const ingredientsList = Object.keys(recipes[recipeName].ingredients).map(ingredient => {
-            return ingredientName = `${ingredient} (${recipes[recipeName].ingredients[ingredient].amount})`;
-        });
-
-        // const ingredientsList = Object.keys(recipes[recipeName].ingredients).map(ingredient => {
-        //     console.log(ingredientName)
-        //     console.log("hfia")
-        //     console.log(ingredient)
-        //
-        //     console.log("first")
-        //     console.log(`${ingredient} (${recipes[recipeName].ingredients})`)
-        //     console.log("second")
-        //     console.log(ingredient)
-        //     // return ingredientName = `${ingredient} (${recipe.ingredients[ingredient].amount})` ;
-        //    return ingredientName = `${ingredient} (${recipes[recipeName].ingredients.amount})` ;
-        // });
-
-        //Go through each ingredient and append it to its own div so that it is on a different line
-        for (const ingredient of ingredientsList) {
-            const line = document.createElement('div');
-            line.innerHTML = ingredient;
-            fragment.appendChild(line);
-        }
-
-        //Add it to the ingredients and then add that to the row
-        ingredients.appendChild(fragment)
-        row.appendChild(ingredients);
-
-        tableBody.appendChild(row);
-    })
-
-}
 
 getData()
