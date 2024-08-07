@@ -154,9 +154,12 @@ function displayData(recipes) {
         ingredients.appendChild(fragment)
         row.appendChild(ingredients);
 
-        row.addEventListener('click', () => {
+        const goToRecipeLink = () => {
             window.location.href = `https://barotraumagame.com/wiki/${recipeName}`;
-        });
+        };
+        row.addEventListener('click', goToRecipeLink);
+        row.addEventListener('touchstart', goToRecipeLink);
+        
         tableBody.appendChild(row);
     })
 
