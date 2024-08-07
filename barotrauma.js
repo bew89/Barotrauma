@@ -154,6 +154,9 @@ function displayData(recipes) {
         ingredients.appendChild(fragment)
         row.appendChild(ingredients);
 
+        row.addEventListener('click', () => {
+            window.location.href = `https://barotraumagame.com/wiki/${recipeName}`;
+        });
         tableBody.appendChild(row);
     })
 
