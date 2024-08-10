@@ -10,7 +10,6 @@ function getData() {
         })
         .then(data => {
             recipes = data
-            console.log(recipes);
             displayData(recipes)
         })
         .catch(error => {
@@ -36,7 +35,6 @@ function displayData(recipes) {
     //Clear the contents of the table
     tableBody.innerHTML = '';
     Object.keys(recipes).forEach(recipeName => {
-        // console.log(recipeName);
         const recipe = recipes[recipeName];
 
         //Create a row for the name and add it to the row
@@ -60,7 +58,6 @@ function displayData(recipes) {
                 imgElement.alt = recipeName;
                 callback(true);
             };
-            img.onerror = () => callback(false);
             img.src = src;
         }
 
@@ -90,7 +87,6 @@ function displayData(recipes) {
             const line = document.createElement('div');
             const img = document.createElement('img');
             const img2 = document.createElement('img');
-            console.log();
 
             let editedIngredient = ingredient.replace(' ', "_");
 
@@ -99,19 +95,12 @@ function displayData(recipes) {
                     editedIngredient[i].replace('')
                 }
             }
-            //"C:\Users\benwo\github\barotrauma\Barotrauma\images\Zinc.png"
-            let certainIngredient = "Zinc"
-            console.log(ingredient);
-            console.log(editedIngredient);
             img.src = `images/${ingredient.trim()}.png`;
             img.alt = ingredient;
-            // img.style.width = '25px';
-            // img.style.height = 'auto';
 
             img2.src = `images/${editedIngredient.trim()}.png`;
             img2.alt = ingredient;
-            // img2.style.width = '25px';
-            // img2.style.height = 'auto';
+
 
             function checkImage(src, imgElement, callback) {
                 const img = new Image();
@@ -122,24 +111,17 @@ function displayData(recipes) {
                     imgElement.style.height = 'auto';
                     callback(true);
                 };
-                img.onerror = () => callback(false);
                 img.src = src;
             }
 
             checkImage(img.src, img, (isValid) => {
                 if (isValid) {
                     line.appendChild(img);
+                }else{
+                    line.appendChild(img2)
                 }
             });
-
-            checkImage(img2.src, img2, (isValid) => {
-                if (isValid) {
-                    line.appendChild(img2);
-                }
-            });
-
-            console.log(ingredient);
-            console.log(recipe.ingredients[ingredient.trim()]);
+            console.log("test")
             let multiplier = document.getElementById('amount').value;
             if(multiplier <= 1) {
                 multiplier = 1;
@@ -159,7 +141,7 @@ function displayData(recipes) {
         };
         row.addEventListener('click', goToRecipeLink);
         row.addEventListener('touchstart', goToRecipeLink);
-        
+
         tableBody.appendChild(row);
     })
 
@@ -199,7 +181,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 }, {});
 
             searchSuggestions.push(matchingIngredients);
-            console.log(searchSuggestions[0])
             displayData(searchSuggestions[0])
          } else {
              displayData(recipes)
