@@ -1,5 +1,5 @@
 {
-    "Battery Cell": {
+    "Battery_Cell": {
         "ingredients": {
             "Zinc": {
                 "amount": "2"
@@ -9,22 +9,22 @@
             }
         }
     },
-    "Fulgurium Battery Cell": {
+   "Fulgurium_Battery Cell": {
         "ingredients": {
             "Zinc": {
                 "amount": "2"
             },
-            "Fulgurium Chunk": {
+            "Fulgurium_Chunk": {
                 "amount": 1
             }
         }
     },
-    "Hardened Wrench": {
+    "Hardened_Wrench": {
         "ingredients": {
             "Wrench": {
                 "amount": 1
             },
-            "Depleted Fuel": {
+           "Depleted_Fuel": {
                 "amount": "2"
             }
         }
@@ -37,14 +37,14 @@
             "Carbon": {
                 "amount": 1
             },
-            "Salt Vine Seed": {
+           "Salt_Vine Seed": {
                 "amount": 1
             }
         }
     },
-    "Pipe Tobacco": {
+   "Pipe_Tobacco": {
         "ingredients": {
-            "Tobacco Bud": {
+           "Tobacco_Bud": {
                 "amount": "3"
             }
         }
@@ -59,7 +59,7 @@
             }
         }
     },
-    "Diving Suit": {
+   "Diving_Suit": {
         "ingredients": {
             "Titanium-Aluminum Alloy": {
                 "amount": 1
@@ -69,7 +69,7 @@
             }
         }
     },
-    "Advanced Syringe Gun": {
+   "Advanced_Syringe Gun": {
         "ingredients": {
             "Titanium-Aluminum Alloy": {
                 "amount": 1
@@ -97,28 +97,28 @@
             "Titanium-Aluminum Alloy": {
                 "amount": "3"
             },
-            "Physicorium Bar": {
+           "Physicorium_Bar": {
                 "amount": 1
             }
         }
     },
-    "Boarding Axe": {
+   "Boarding_Axe": {
         "ingredients": {
             "Titanium-Aluminum Alloy": {
                 "amount": "2"
             }
         }
     },
-    "Ceremonial Sword": {
+   "Ceremonial_Sword": {
         "ingredients": {
             "Titanium-Aluminum Alloy": {
                 "amount": "2"
             }
         }
     },
-    "Stun Gun Dart": {
+   "Stun_Gun Dart": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Wire (Any)": {
@@ -126,9 +126,9 @@
             }
         }
     },
-    "Nuclear Shell": {
+   "Nuclear_Shell": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Uranium": {
@@ -139,9 +139,9 @@
             }
         }
     },
-    "Heavy Wrench": {
+   "Heavy_Wrench": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Titanium": {
@@ -149,9 +149,9 @@
             }
         }
     },
-    "Fixfoam Grenade": {
+   "Fixfoam_Grenade": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Sodium": {
@@ -162,9 +162,9 @@
             }
         }
     },
-    "Fuel Rod": {
+   "Fuel_Rod": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Lead": {
@@ -175,9 +175,9 @@
             }
         }
     },
-    "Thorium Fuel Rod": {
+   "Thorium_Fuel Rod": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Lead": {
@@ -188,15 +188,15 @@
             }
         }
     },
-    "Volatile Fulgurium Fuel Rod": {
+   "Volatile_Fulgurium Fuel Rod": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Lead": {
                 "amount": "2"
             },
-            "Fulgurium Chunk": {
+           "Fulgurium_Chunk": {
                 "amount": 1
             },
             "Thorium": {
@@ -204,22 +204,22 @@
             }
         }
     },
-    "Fulgurium Fuel Rod": {
+   "Fulgurium_Fuel Rod": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Lead": {
                 "amount": "2"
             },
-            "Fulgurium Chunk": {
+           "Fulgurium_Chunk": {
                 "amount": 1
             }
         }
     },
-    "Railgun Shell": {
+   "Railgun_Shell": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Iron": {
@@ -227,12 +227,12 @@
             }
         }
     },
-    "Nuclear Shell (cheap)": {
+   "Nuclear_Shell (cheap)": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
-            "Fuel Rod": {
+           "Fuel_Rod": {
                 "amount": 1
             },
             "(>80%)": {
@@ -243,9 +243,9 @@
             }
         }
     },
-    "Watering Can": {
+   "Watering_Can": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Plastic": {
@@ -253,9 +253,9 @@
             }
         }
     },
-    "Shredder Chaingun Ammunition Box": {
+   "Shredder_Chaingun Ammunition Box": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "or": {
@@ -272,9 +272,9 @@
             }
         }
     },
-    "Piercing Ammunition Box": {
+   "Piercing_Ammunition Box": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "or": {
@@ -291,9 +291,9 @@
             }
         }
     },
-    "Makeshift Shelves": {
+   "Makeshift_Shelves": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "4"
             },
             "Iron": {
@@ -303,7 +303,7 @@
     },
     "Rifle": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Titanium-Aluminum Alloy": {
@@ -314,9 +314,9 @@
             }
         }
     },
-    "Riot Shotgun": {
+   "Riot_Shotgun": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Titanium-Aluminum Alloy": {
@@ -329,7 +329,7 @@
     },
     "Flamer": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Rubber": {
@@ -337,9 +337,9 @@
             }
         }
     },
-    "Riot Shield": {
+   "Riot_Shield": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Plastic": {
@@ -347,9 +347,9 @@
             }
         }
     },
-    "Harpoon Gun": {
+   "Harpoon_Gun": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Plastic": {
@@ -360,9 +360,9 @@
             }
         }
     },
-    "Harpoon Coil-Rifle": {
+   "Harpoon_Coil-Rifle": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Plastic": {
@@ -373,9 +373,9 @@
             }
         }
     },
-    "Stun Gun": {
+   "Stun_Gun": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Plastic": {
@@ -383,9 +383,9 @@
             }
         }
     },
-    "Welding Tool": {
+   "Welding_Tool": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Plastic": {
@@ -393,9 +393,9 @@
             }
         }
     },
-    "Plasma Cutter": {
+   "Plasma_Cutter": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Plastic": {
@@ -403,9 +403,9 @@
             }
         }
     },
-    "Stun Baton": {
+   "Stun_Baton": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Plastic": {
@@ -413,9 +413,9 @@
             }
         }
     },
-    "Small Planter Box": {
+   "Small_Planter Box": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Plastic": {
@@ -425,7 +425,7 @@
     },
     "Revolver": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Plastic": {
@@ -433,46 +433,46 @@
             }
         }
     },
-    "Storage Container": {
+   "Storage_Container": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             }
         }
     },
     "Harpoon": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             }
         }
     },
     "Handcuffs": {
         "ingredients": {
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             }
         }
     },
-    "Hardened Screwdriver": {
+   "Hardened_Screwdriver": {
         "ingredients": {
             "Screwdriver": {
                 "amount": 1
             },
-            "Depleted Fuel": {
+           "Depleted_Fuel": {
                 "amount": "2"
             }
         }
     },
-    "Safety Harness": {
+   "Safety_Harness": {
         "ingredients": {
             "Rubber": {
                 "amount": "2"
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
-            "Organic Fiber": {
+           "Organic_Fiber": {
                 "amount": "2"
             }
         }
@@ -487,7 +487,7 @@
             }
         }
     },
-    "Diving Mask": {
+   "Diving_Mask": {
         "ingredients": {
             "Plastic": {
                 "amount": 1
@@ -497,22 +497,22 @@
             }
         }
     },
-    "Explosive Slug": {
+   "Explosive_Slug": {
         "ingredients": {
             "Plastic": {
                 "amount": 1
             },
-            "Incendium Crystal": {
+           "Incendium_Crystal": {
                 "amount": 1
             }
         }
     },
-    "Gene Splicer": {
+   "Gene_Splicer": {
         "ingredients": {
             "Plastic": {
                 "amount": 1
             },
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": "2"
             },
             "Rubber": {
@@ -528,12 +528,12 @@
             "Plastic": {
                 "amount": 1
             },
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "FPGA Circuit": {
+   "FPGA_Circuit": {
         "ingredients": {
             "Plastic": {
                 "amount": 1
@@ -546,7 +546,7 @@
             }
         }
     },
-    "Ballistic Fiber": {
+   "Ballistic_Fiber": {
         "ingredients": {
             "Plastic": {
                 "amount": "2"
@@ -556,7 +556,7 @@
             }
         }
     },
-    "Circuit Box": {
+   "Circuit_Box": {
         "ingredients": {
             "Plastic": {
                 "amount": "2"
@@ -569,18 +569,18 @@
             }
         }
     },
-    "Physicorium Chaingun Ammunition Box": {
+   "Physicorium_Chaingun Ammunition Box": {
         "ingredients": {
-            "Physicorium Bar": {
+           "Physicorium_Bar": {
                 "amount": 1
             },
             "Titanium": {
-                "amount": "3 or"
+                "amount":"3_or"
             },
             "Uranium": {
-                "amount": "3 or"
+                "amount":"3_or"
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "3"
             },
             "Aluminum": {
@@ -588,9 +588,9 @@
             }
         }
     },
-    "Physicorium Shell": {
+   "Physicorium_Shell": {
         "ingredients": {
-            "Physicorium Bar": {
+           "Physicorium_Bar": {
                 "amount": 1
             },
             "Titanium": {
@@ -598,12 +598,12 @@
             }
         }
     },
-    "Physicorium Flak Shells Box": {
+   "Physicorium_Flak Shells Box": {
         "ingredients": {
-            "Physicorium Bar": {
+           "Physicorium_Bar": {
                 "amount": 1
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "or": {
@@ -616,7 +616,7 @@
                 "amount": 1
             },
             "Zinc": {
-                "amount": "2 or"
+                "amount":"2_or"
             },
             "Copper": {
                 "amount": "2"
@@ -632,16 +632,16 @@
             }
         }
     },
-    "Physicorium Ammunition Box": {
+   "Physicorium_Ammunition Box": {
         "ingredients": {
-            "Physicorium Bar": {
+           "Physicorium_Bar": {
                 "amount": 1
             },
-            "Steel Bar": {
-                "amount": "2 or"
+           "Steel_Bar": {
+                "amount":"2_or"
             },
             "Uranium": {
-                "amount": "2 or"
+                "amount":"2_or"
             },
             "Titanium": {
                 "amount": "2"
@@ -651,9 +651,9 @@
             }
         }
     },
-    "Assault Rifle": {
+   "Assault_Rifle": {
         "ingredients": {
-            "Physicorium Bar": {
+           "Physicorium_Bar": {
                 "amount": "2"
             },
             "Titanium-Aluminum Alloy": {
@@ -666,7 +666,7 @@
     },
     "HMG": {
         "ingredients": {
-            "Physicorium Bar": {
+           "Physicorium_Bar": {
                 "amount": "2"
             },
             "Titanium-Aluminum Alloy": {
@@ -677,14 +677,14 @@
             }
         }
     },
-    "Physicorium Harpoon": {
+   "Physicorium_Harpoon": {
         "ingredients": {
-            "Physicorium Bar": {
+           "Physicorium_Bar": {
                 "amount": 1
             }
         }
     },
-    "Focused Flak Shells Box": {
+   "Focused_Flak Shells Box": {
         "ingredients": {
             "Phosphorus": {
                 "amount": 1
@@ -695,7 +695,7 @@
             "Magnesium": {
                 "amount": 1
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Titanium": {
@@ -705,7 +705,7 @@
                 "amount": 1
             },
             "Zinc": {
-                "amount": "2 or"
+                "amount":"2_or"
             },
             "Copper": {
                 "amount": "2"
@@ -715,7 +715,7 @@
             }
         }
     },
-    "SMG Magazine": {
+   "SMG_Magazine": {
         "ingredients": {
             "Phosphorus": {
                 "amount": 1
@@ -732,7 +732,7 @@
             "Copper": {
                 "amount": 1
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Zinc": {
@@ -743,7 +743,7 @@
             }
         }
     },
-    "Defense Bot Ammunition Rounds": {
+   "Defense_Bot Ammunition Rounds": {
         "ingredients": {
             "Phosphorus": {
                 "amount": 1
@@ -760,7 +760,7 @@
             "Copper": {
                 "amount": 1
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Zinc": {
@@ -774,7 +774,7 @@
             }
         }
     },
-    "Spreader Flak Shells Box": {
+   "Spreader_Flak Shells Box": {
         "ingredients": {
             "Phosphorus": {
                 "amount": 1
@@ -791,7 +791,7 @@
             "Copper": {
                 "amount": 1
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "Zinc": {
@@ -802,7 +802,7 @@
             }
         }
     },
-    "Depleted Fuel SMG Magazine": {
+   "Depleted_Fuel SMG Magazine": {
         "ingredients": {
             "Phosphorus": {
                 "amount": 1
@@ -813,7 +813,7 @@
             "Magnesium": {
                 "amount": 1
             },
-            "Depleted Fuel": {
+           "Depleted_Fuel": {
                 "amount": 1
             },
             "Zinc": {
@@ -825,24 +825,24 @@
             "Iron": {
                 "amount": 1
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             }
         }
     },
-    "Light Component": {
+   "Light_Component": {
         "ingredients": {
             "Phosphorus": {
                 "amount": "2"
             },
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Makeshift Armor": {
+   "Makeshift_Armor": {
         "ingredients": {
-            "Organic Fiber": {
+           "Organic_Fiber": {
                 "amount": "2"
             },
             "Iron": {
@@ -850,31 +850,31 @@
             }
         }
     },
-    "Seed Bag": {
+   "Seed_Bag": {
         "ingredients": {
-            "Organic Fiber": {
+           "Organic_Fiber": {
                 "amount": "2"
             }
         }
     },
     "Backpack": {
         "ingredients": {
-            "Organic Fiber": {
+           "Organic_Fiber": {
                 "amount": "5"
             }
         }
     },
-    "Nuclear Depth Decoy": {
+   "Nuclear_Depth Decoy": {
         "ingredients": {
-            "Nuclear Depth Charge": {
+           "Nuclear_Depth Charge": {
                 "amount": 1
             },
-            "Sonar Beacon": {
+           "Sonar_Beacon": {
                 "amount": 1
             }
         }
     },
-    "Funbringer 3000": {
+   "Funbringer_3000": {
         "ingredients": {
             "Mother's Providence": {
                 "amount": 1
@@ -887,12 +887,12 @@
             }
         }
     },
-    "Clown Crate": {
+   "Clown_Crate": {
         "ingredients": {
-            "Metal Crate": {
+           "Metal_Crate": {
                 "amount": 1
             },
-            "Red Paint": {
+           "Red_Paint": {
                 "amount": 1
             },
             "Rubber": {
@@ -900,7 +900,7 @@
             }
         }
     },
-    "HMG Magazine": {
+   "HMG_Magazine": {
         "ingredients": {
             "Magnesium": {
                 "amount": 1
@@ -908,7 +908,7 @@
             "Titanium-Aluminum Alloy": {
                 "amount": 1
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "or": {
@@ -928,12 +928,12 @@
             }
         }
     },
-    "Assault Rifle Magazine": {
+   "Assault_Rifle Magazine": {
         "ingredients": {
             "Magnesium": {
                 "amount": 1
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             },
             "or": {
@@ -953,7 +953,7 @@
             }
         }
     },
-    "Flash Powder": {
+   "Flash_Powder": {
         "ingredients": {
             "Magnesium": {
                 "amount": 1
@@ -963,12 +963,12 @@
             }
         }
     },
-    "Pulse Laser Fuel Box": {
+   "Pulse_Laser Fuel Box": {
         "ingredients": {
             "Lithium": {
                 "amount": 1
             },
-            "Alien Blood": {
+           "Alien_Blood": {
                 "amount": 1
             },
             "Aluminum": {
@@ -976,7 +976,7 @@
             }
         }
     },
-    "Canister Shell": {
+   "Canister_Shell": {
         "ingredients": {
             "Lead": {
                 "amount": 1
@@ -987,12 +987,12 @@
             "Copper": {
                 "amount": 1
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             }
         }
     },
-    "Artifact Transport Case": {
+   "Artifact_Transport Case": {
         "ingredients": {
             "Lead": {
                 "amount": "3"
@@ -1002,15 +1002,15 @@
             }
         }
     },
-    "Chaingun Ammunition Box": {
+   "Chaingun_Ammunition Box": {
         "ingredients": {
             "Lead": {
-                "amount": "3 or"
+                "amount":"3_or"
             },
             "Copper": {
-                "amount": "3 or"
+                "amount":"3_or"
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "3"
             },
             "Aluminum": {
@@ -1018,15 +1018,15 @@
             }
         }
     },
-    "Coilgun Ammunition Box": {
+   "Coilgun_Ammunition Box": {
         "ingredients": {
             "Lead": {
-                "amount": "2 or"
+                "amount":"2_or"
             },
             "Copper": {
-                "amount": "2 or"
+                "amount":"2_or"
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
             "Aluminum": {
@@ -1034,7 +1034,7 @@
             }
         }
     },
-    "Frag Grenade": {
+   "Frag_Grenade": {
         "ingredients": {
             "Iron": {
                 "amount": 1
@@ -1044,7 +1044,7 @@
             }
         }
     },
-    "40mm Grenade": {
+   "40mm_Grenade": {
         "ingredients": {
             "Iron": {
                 "amount": 1
@@ -1054,12 +1054,12 @@
             }
         }
     },
-    "40mm Acid Grenade": {
+   "40mm_Acid Grenade": {
         "ingredients": {
             "Iron": {
                 "amount": 1
             },
-            "Sulphuric Acid": {
+           "Sulphuric_Acid": {
                 "amount": 1
             },
             "Phosphorus": {
@@ -1067,7 +1067,7 @@
             }
         }
     },
-    "40mm Stun Grenade": {
+   "40mm_Stun Grenade": {
         "ingredients": {
             "Iron": {
                 "amount": 1
@@ -1075,12 +1075,12 @@
             "Phosphorus": {
                 "amount": 1
             },
-            "Flash Powder": {
+           "Flash_Powder": {
                 "amount": 1
             }
         }
     },
-    "Stun Grenade": {
+   "Stun_Grenade": {
         "ingredients": {
             "Iron": {
                 "amount": 1
@@ -1088,12 +1088,12 @@
             "Phosphorus": {
                 "amount": 1
             },
-            "Flash Powder": {
+           "Flash_Powder": {
                 "amount": 1
             }
         }
     },
-    "EMP Grenade": {
+   "EMP_Grenade": {
         "ingredients": {
             "Iron": {
                 "amount": 1
@@ -1106,14 +1106,14 @@
             }
         }
     },
-    "Iron Helmet": {
+   "Iron_Helmet": {
         "ingredients": {
             "Iron": {
                 "amount": "4"
             }
         }
     },
-    "Depth Charge Shell": {
+   "Depth_Charge Shell": {
         "ingredients": {
             "Iron": {
                 "amount": "2"
@@ -1123,7 +1123,7 @@
             }
         }
     },
-    "Nuclear Depth Charge": {
+   "Nuclear_Depth Charge": {
         "ingredients": {
             "Iron": {
                 "amount": "2"
@@ -1136,22 +1136,22 @@
             }
         }
     },
-    "Acid Grenade": {
+   "Acid_Grenade": {
         "ingredients": {
             "Iron": {
                 "amount": "2"
             },
-            "Sulphuric Acid": {
+           "Sulphuric_Acid": {
                 "amount": 1
             }
         }
     },
-    "Depth Decoy Shell": {
+   "Depth_Decoy Shell": {
         "ingredients": {
             "Iron": {
                 "amount": "2"
             },
-            "Sonar Beacon": {
+           "Sonar_Beacon": {
                 "amount": 1
             }
         }
@@ -1163,7 +1163,7 @@
             }
         }
     },
-    "Diving Knife": {
+   "Diving_Knife": {
         "ingredients": {
             "Iron": {
                 "amount": "2"
@@ -1184,7 +1184,7 @@
             }
         }
     },
-    "Explosive Harpoon": {
+   "Explosive_Harpoon": {
         "ingredients": {
             "Harpoon": {
                 "amount": "2"
@@ -1194,9 +1194,9 @@
             }
         }
     },
-    "Fulgurium Stun Gun Dart": {
+   "Fulgurium_Stun Gun Dart": {
         "ingredients": {
-            "Fulgurium Chunk": {
+           "Fulgurium_Chunk": {
                 "amount": 1
             },
             "Wire (Any)": {
@@ -1204,12 +1204,12 @@
             }
         }
     },
-    "Advanced Gene Splicer": {
+   "Advanced_Gene Splicer": {
         "ingredients": {
-            "Fulgurium Chunk": {
+           "Fulgurium_Chunk": {
                 "amount": 1
             },
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": "2"
             },
             "Rubber": {
@@ -1220,12 +1220,12 @@
             }
         }
     },
-    "Pulse Tri-Laser Fuel Box": {
+   "Pulse_Tri-Laser Fuel Box": {
         "ingredients": {
-            "Fulgurium Chunk": {
+           "Fulgurium_Chunk": {
                 "amount": 1
             },
-            "Alien Blood": {
+           "Alien_Blood": {
                 "amount": 1
             },
             "Aluminum": {
@@ -1233,9 +1233,9 @@
             }
         }
     },
-    "Arc Emitter": {
+   "Arc_Emitter": {
         "ingredients": {
-            "Fulgurium Chunk": {
+           "Fulgurium_Chunk": {
                 "amount": "2"
             },
             "Titanium-Aluminum Alloy": {
@@ -1246,15 +1246,15 @@
             }
         }
     },
-    "Depleted Fuel": {
+   "Depleted_Fuel": {
         "ingredients": {
-            "Fuel Rod": {
+           "Fuel_Rod": {
                 "amount": 1
             },
             "or": {
                 "amount": 1
             },
-            "Thorium Fuel Rod": {
+           "Thorium_Fuel Rod": {
                 "amount": 1
             },
             "(": {
@@ -1266,14 +1266,14 @@
             ")": {
                 "amount": 1
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": 1
             }
         }
     },
-    "Text Display": {
+   "Text_Display": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Tin": {
@@ -1286,7 +1286,7 @@
     },
     "Terminal": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Tin": {
@@ -1299,43 +1299,33 @@
     },
     "Electrician's Goggles": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Plastic": {
                 "amount": 1
             },
-            "Fulgurium Chunk": {
+           "Fulgurium_Chunk": {
                 "amount": 1
             }
         }
     },
-    "Thermal Goggles": {
+   "Thermal_Goggles": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Plastic": {
                 "amount": 1
             },
-            "Fulgurium Chunk": {
+           "Fulgurium_Chunk": {
                 "amount": 1
             }
         }
     },
-    "Handheld Itemfinder": {
+   "Handheld_Itemfinder": {
         "ingredients": {
-            "FPGA Circuit": {
-                "amount": 1
-            },
-            "Plastic": {
-                "amount": 1
-            }
-        }
-    },
-    "Sonar Beacon": {
-        "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Plastic": {
@@ -1343,9 +1333,9 @@
             }
         }
     },
-    "Handheld Electrical Monitor": {
+   "Sonar_Beacon": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Plastic": {
@@ -1353,9 +1343,9 @@
             }
         }
     },
-    "Handheld Status Monitor": {
+   "Handheld_Electrical Monitor": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Plastic": {
@@ -1363,9 +1353,9 @@
             }
         }
     },
-    "Reactor PDA": {
+   "Handheld_Status Monitor": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Plastic": {
@@ -1373,9 +1363,9 @@
             }
         }
     },
-    "Health Scanner HUD": {
+   "Reactor_PDA": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Plastic": {
@@ -1383,9 +1373,9 @@
             }
         }
     },
-    "Handheld Sonar": {
+   "Health_Scanner HUD": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Plastic": {
@@ -1393,9 +1383,19 @@
             }
         }
     },
-    "Scrap Cannon": {
+   "Handheld_Sonar": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
+                "amount": 1
+            },
+            "Plastic": {
+                "amount": 1
+            }
+        }
+    },
+   "Scrap_Cannon": {
+        "ingredients": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Lead": {
@@ -1406,9 +1406,9 @@
             }
         }
     },
-    "Rapid Fissile Accelerator": {
+   "Rapid_Fissile Accelerator": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Lead": {
@@ -1417,245 +1417,245 @@
             "Titanium-Aluminum Alloy": {
                 "amount": "2"
             },
-            "Fulgurium Chunk": {
+           "Fulgurium_Chunk": {
                 "amount": "2"
             }
         }
     },
-    "Ceil Component": {
+   "Ceil_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Equals Component": {
+   "Equals_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "RegEx Find Component": {
+   "RegEx_Find Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Not Component": {
+   "Not_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Adder Component": {
+   "Adder_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Round Component": {
+   "Round_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Abs Component": {
+   "Abs_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Subtract Component": {
+   "Subtract_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Acos Component": {
+   "Acos_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Delay Component": {
+   "Delay_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Sin Component": {
+   "Sin_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Asin Component": {
+   "Asin_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Wifi Component": {
+   "Wifi_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Exponentiation Component": {
+   "Exponentiation_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Divide Component": {
+   "Divide_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Multiply Component": {
+   "Multiply_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "And Component": {
+   "And_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Oscillator Component": {
+   "Oscillator_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Modulo Component": {
+   "Modulo_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Xor Component": {
+   "Xor_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Cos Component": {
+   "Cos_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Atan Component": {
+   "Atan_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Greater Component": {
+   "Greater_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Concatenation Component": {
+   "Concatenation_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Floor Component": {
+   "Floor_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Tan Component": {
+   "Tan_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Factorial Component": {
+   "Factorial_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Memory Component": {
+   "Memory_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Signal Check Component": {
+   "Signal_Check Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Square Root Component": {
+   "Square_Root Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Or Component": {
+   "Or_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Relay Component": {
+   "Relay_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Color Component": {
+   "Color_Component": {
         "ingredients": {
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
     "Flare": {
         "ingredients": {
-            "Flash Powder": {
+           "Flash_Powder": {
                 "amount": "2"
             },
             "Plastic": {
@@ -1663,9 +1663,9 @@
             }
         }
     },
-    "Abyss Diving Suit": {
+   "Abyss_Diving Suit": {
         "ingredients": {
-            "Diving Suit": {
+           "Diving_Suit": {
                 "amount": 1
             },
             "Titanium-Aluminum Alloy": {
@@ -1676,12 +1676,12 @@
             }
         }
     },
-    "Combat Diving Suit": {
+   "Combat_Diving Suit": {
         "ingredients": {
-            "Diving Suit": {
+           "Diving_Suit": {
                 "amount": 1
             },
-            "Ballistic Fiber": {
+           "Ballistic_Fiber": {
                 "amount": 1
             },
             "Titanium-Aluminum Alloy": {
@@ -1692,26 +1692,26 @@
             }
         }
     },
-    "Hardened Diving Knife": {
+   "Hardened_Diving Knife": {
         "ingredients": {
-            "Diving Knife": {
+           "Diving_Knife": {
                 "amount": 1
             },
-            "Depleted Fuel": {
+           "Depleted_Fuel": {
                 "amount": "2"
             }
         }
     },
-    "Depleted Fuel Coilgun Ammunition Box": {
+   "Depleted_Fuel Coilgun Ammunition Box": {
         "ingredients": {
-            "Depleted Fuel": {
+           "Depleted_Fuel": {
                 "amount": "2"
             },
             "Zinc": {
-                "amount": "2 or"
+                "amount":"2_or"
             },
             "Copper": {
-                "amount": "2 or"
+                "amount":"2_or"
             },
             "Iron": {
                 "amount": "2"
@@ -1721,30 +1721,30 @@
             }
         }
     },
-    "Portable Pump": {
+   "Portable_Pump": {
         "ingredients": {
-            "Dementonite Cluster": {
+           "Dementonite_Cluster": {
                 "amount": "2"
             },
-            "Steel Bar": {
+           "Steel_Bar": {
                 "amount": "2"
             },
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             }
         }
     },
-    "Hardened Crowbar": {
+   "Hardened_Crowbar": {
         "ingredients": {
             "Crowbar": {
                 "amount": 1
             },
-            "Depleted Fuel": {
+           "Depleted_Fuel": {
                 "amount": "2"
             }
         }
     },
-    "Repair Pack": {
+   "Repair_Pack": {
         "ingredients": {
             "Copper": {
                 "amount": 1
@@ -1757,7 +1757,7 @@
             }
         }
     },
-    "Red Wire": {
+   "Red_Wire": {
         "ingredients": {
             "Copper": {
                 "amount": 1
@@ -1767,7 +1767,7 @@
             }
         }
     },
-    "Blue Wire": {
+   "Blue_Wire": {
         "ingredients": {
             "Copper": {
                 "amount": 1
@@ -1777,7 +1777,7 @@
             }
         }
     },
-    "Orange Wire": {
+   "Orange_Wire": {
         "ingredients": {
             "Copper": {
                 "amount": 1
@@ -1787,7 +1787,7 @@
             }
         }
     },
-    "Green Wire": {
+   "Green_Wire": {
         "ingredients": {
             "Copper": {
                 "amount": 1
@@ -1797,7 +1797,7 @@
             }
         }
     },
-    "Black Wire": {
+   "Black_Wire": {
         "ingredients": {
             "Copper": {
                 "amount": 1
@@ -1807,7 +1807,7 @@
             }
         }
     },
-    "Brown Wire": {
+   "Brown_Wire": {
         "ingredients": {
             "Copper": {
                 "amount": 1
@@ -1819,7 +1819,7 @@
     },
     "Slipsuit": {
         "ingredients": {
-            "Combat Diving Suit": {
+           "Combat_Diving Suit": {
                 "amount": 1
             },
             "Rubber": {
@@ -1829,30 +1829,30 @@
     },
     "PUCS": {
         "ingredients": {
-            "Combat Diving Suit": {
+           "Combat_Diving Suit": {
                 "amount": 1
             },
             "Lead": {
                 "amount": 1
             },
-            "Physicorium Bar": {
+           "Physicorium_Bar": {
                 "amount": 1
             }
         }
     },
-    "Clown Diving Mask": {
+   "Clown_Diving Mask": {
         "ingredients": {
-            "Clown Mask": {
+           "Clown_Mask": {
                 "amount": 1
             },
-            "Diving Mask": {
+           "Diving_Mask": {
                 "amount": 1
             }
         }
     },
-    "Chitin Helmet": {
+   "Chitin_Helmet": {
         "ingredients": {
-            "Chitin Chunk": {
+           "Chitin_Chunk": {
                 "amount": "3"
             }
         }
@@ -1867,7 +1867,7 @@
             }
         }
     },
-    "Steel Bar": {
+   "Steel_Bar": {
         "ingredients": {
             "Carbon": {
                 "amount": 1
@@ -1877,13 +1877,13 @@
             }
         }
     },
-    "Exploding Ammunition Box": {
+   "Exploding_Ammunition Box": {
         "ingredients": {
             "C-4 Block": {
                 "amount": 1
             },
             "Zinc": {
-                "amount": "2 or"
+                "amount":"2_or"
             },
             "Copper": {
                 "amount": "2"
@@ -1893,13 +1893,13 @@
             }
         }
     },
-    "Explosive Flak Shells Box": {
+   "Explosive_Flak Shells Box": {
         "ingredients": {
             "C-4 Block": {
                 "amount": "2"
             },
             "Zinc": {
-                "amount": "2 or"
+                "amount":"2_or"
             },
             "Copper": {
                 "amount": "2"
@@ -1909,9 +1909,9 @@
             }
         }
     },
-    "Toy Hammer": {
+   "Toy_Hammer": {
         "ingredients": {
-            "Bike Horn": {
+           "Bike_Horn": {
                 "amount": 1
             },
             "Plastic": {
@@ -1921,10 +1921,10 @@
     },
     "Autoshotgun": {
         "ingredients": {
-            "Ballistic Fiber": {
+           "Ballistic_Fiber": {
                 "amount": 1
             },
-            "Physicorium Bar": {
+           "Physicorium_Bar": {
                 "amount": "2"
             },
             "Titanium-Aluminum Alloy": {
@@ -1932,37 +1932,37 @@
             }
         }
     },
-    "Body Armor": {
+   "Body_Armor": {
         "ingredients": {
-            "Ballistic Fiber": {
+           "Ballistic_Fiber": {
                 "amount": "3"
             }
         }
     },
     "Gunner's Helmet": {
         "ingredients": {
-            "Ballistic Fiber": {
+           "Ballistic_Fiber": {
                 "amount": "2"
             }
         }
     },
-    "Riot Helmet": {
+   "Riot_Helmet": {
         "ingredients": {
-            "Ballistic Fiber": {
+           "Ballistic_Fiber": {
                 "amount": "2"
             }
         }
     },
-    "Ballistic Helmet": {
+   "Ballistic_Helmet": {
         "ingredients": {
-            "Ballistic Fiber": {
+           "Ballistic_Fiber": {
                 "amount": "2"
             }
         }
     },
     "Bandolier": {
         "ingredients": {
-            "Ballistic Fiber": {
+           "Ballistic_Fiber": {
                 "amount": "2"
             },
             "Plastic": {
@@ -1970,7 +1970,7 @@
             }
         }
     },
-    "Fire Extinguisher": {
+   "Fire_Extinguisher": {
         "ingredients": {
             "Aluminum": {
                 "amount": 1
@@ -1980,7 +1980,7 @@
             }
         }
     },
-    "Cargo Scooter": {
+   "Cargo_Scooter": {
         "ingredients": {
             "Aluminum": {
                 "amount": "2"
@@ -1993,12 +1993,12 @@
             }
         }
     },
-    "Underwater Scooter": {
+   "Underwater_Scooter": {
         "ingredients": {
             "Aluminum": {
                 "amount": "2"
             },
-            "FPGA Circuit": {
+           "FPGA_Circuit": {
                 "amount": 1
             },
             "Tin": {
@@ -2006,7 +2006,7 @@
             }
         }
     },
-    "Syringe Gun": {
+   "Syringe_Gun": {
         "ingredients": {
             "Aluminum": {
                 "amount": "2"
@@ -2016,27 +2016,27 @@
             }
         }
     },
-    "Oxygenite Tank": {
+   "Oxygenite_Tank": {
         "ingredients": {
             "Aluminum": {
                 "amount": "2"
             },
-            "Liquid Oxygenite": {
+           "Liquid_Oxygenite": {
                 "amount": "2"
             }
         }
     },
-    "Incendium Fuel Tank": {
+   "Incendium_Fuel Tank": {
         "ingredients": {
             "Aluminum": {
                 "amount": "2"
             },
-            "Incendium Crystal": {
+           "Incendium_Crystal": {
                 "amount": 1
             }
         }
     },
-    "Welding Fuel Tank": {
+   "Welding_Fuel Tank": {
         "ingredients": {
             "Aluminum": {
                 "amount": "2"
@@ -2046,16 +2046,16 @@
             }
         }
     },
-    "Oxygen Tank": {
+   "Oxygen_Tank": {
         "ingredients": {
             "Aluminum": {
                 "amount": "2"
             }
         }
     },
-    "Calyx Extract": {
+   "Calyx_Extract": {
         "ingredients": {
-            "Velonaceps Calyx Eggs": {
+           "Velonaceps_Calyx Eggs": {
                 "amount": 1
             },
             "Calcium": {
@@ -2063,9 +2063,9 @@
             }
         }
     },
-    "Anabolic Steroids": {
+   "Anabolic_Steroids": {
         "ingredients": {
-            "Tonic Liquid": {
+           "Tonic_Liquid": {
                 "amount": 1
             },
             "Adrenaline": {
@@ -2083,9 +2083,9 @@
             }
         }
     },
-    "Endocrine Booster": {
+   "Endocrine_Booster": {
         "ingredients": {
-            "Sulphurite Shard": {
+           "Sulphurite_Shard": {
                 "amount": "2"
             },
             "Paralyxis": {
@@ -2098,7 +2098,7 @@
     },
     "Sufforin": {
         "ingredients": {
-            "Sulphuric Acid": {
+           "Sulphuric_Acid": {
                 "amount": 1
             },
             "Potassium": {
@@ -2106,9 +2106,9 @@
             }
         }
     },
-    "Sulphuric Acid Syringe": {
+   "Sulphuric_Acid Syringe": {
         "ingredients": {
-            "Sulphuric Acid": {
+           "Sulphuric_Acid": {
                 "amount": 1
             },
             "Plastic": {
@@ -2116,7 +2116,7 @@
             }
         }
     },
-    "Sufforin Antidote": {
+   "Sufforin_Antidote": {
         "ingredients": {
             "Sufforin": {
                 "amount": 1
@@ -2126,7 +2126,7 @@
             }
         }
     },
-    "Antibiotic Glue": {
+   "Antibiotic_Glue": {
         "ingredients": {
             "Stabilozine": {
                 "amount": 1
@@ -2149,12 +2149,12 @@
             }
         }
     },
-    "Blood Pack": {
+   "Blood_Pack": {
         "ingredients": {
             "Saline": {
                 "amount": "2"
             },
-            "Alien Blood": {
+           "Alien_Blood": {
                 "amount": "2"
             },
             "Stabilozine": {
@@ -2162,9 +2162,9 @@
             }
         }
     },
-    "Raptor Bane Extract": {
+   "Raptor_Bane Extract": {
         "ingredients": {
-            "Raptor Bane": {
+           "Raptor_Bane": {
                 "amount": "4"
             }
         }
@@ -2179,7 +2179,7 @@
             }
         }
     },
-    "Pomegrenade Extract": {
+   "Pomegrenade_Extract": {
         "ingredients": {
             "Pomegrenade": {
                 "amount": "3"
@@ -2211,7 +2211,7 @@
     },
     "Bandage": {
         "ingredients": {
-            "Organic Fiber": {
+           "Organic_Fiber": {
                 "amount": 1
             }
         }
@@ -2246,17 +2246,17 @@
             }
         }
     },
-    "Petraptor Egg": {
+   "Petraptor_Egg": {
         "ingredients": {
-            "Mudraptor Egg": {
+           "Mudraptor_Egg": {
                 "amount": 1
             },
-            "Dementonite Cluster": {
+           "Dementonite_Cluster": {
                 "amount": 1
             }
         }
     },
-    "Morbusine Antidote": {
+   "Morbusine_Antidote": {
         "ingredients": {
             "Morbusine": {
                 "amount": 1
@@ -2271,7 +2271,7 @@
             "Methamphetamine": {
                 "amount": 1
             },
-            "Anabolic Steroids": {
+           "Anabolic_Steroids": {
                 "amount": 1
             }
         }
@@ -2289,9 +2289,9 @@
             }
         }
     },
-    "Pressure Stabilizer": {
+   "Pressure_Stabilizer": {
         "ingredients": {
-            "Liquid Oxygenite": {
+           "Liquid_Oxygenite": {
                 "amount": "2"
             },
             "Stabilozine": {
@@ -2299,7 +2299,7 @@
             }
         }
     },
-    "Deliriumine Antidote": {
+   "Deliriumine_Antidote": {
         "ingredients": {
             "Deliriumine": {
                 "amount": 1
@@ -2309,7 +2309,7 @@
             }
         }
     },
-    "Cyanide Antidote": {
+   "Cyanide_Antidote": {
         "ingredients": {
             "Cyanide": {
                 "amount": 1
@@ -2319,7 +2319,7 @@
             }
         }
     },
-    "Chloral Hydrate": {
+   "Chloral_Hydrate": {
         "ingredients": {
             "Chlorine": {
                 "amount": "2"
@@ -2337,14 +2337,14 @@
             "Calcium": {
                 "amount": "2"
             },
-            "Sulphuric Acid": {
+           "Sulphuric_Acid": {
                 "amount": 1
             }
         }
     },
     "Cyanide": {
         "ingredients": {
-            "Chloral Hydrate": {
+           "Chloral_Hydrate": {
                 "amount": 1
             },
             "Sodium": {
@@ -2354,7 +2354,7 @@
     },
     "Paralyzant": {
         "ingredients": {
-            "Chloral Hydrate": {
+           "Chloral_Hydrate": {
                 "amount": 1
             },
             "Paralyxis": {
@@ -2364,7 +2364,7 @@
     },
     "Calyxanide": {
         "ingredients": {
-            "Calyx Extract": {
+           "Calyx_Extract": {
                 "amount": 1
             },
             "Broad-spectrum Antibiotics": {
@@ -2375,7 +2375,7 @@
             }
         }
     },
-    "Tonic Liquid": {
+   "Tonic_Liquid": {
         "ingredients": {
             "Calcium": {
                 "amount": "3"
@@ -2400,20 +2400,20 @@
     },
     "Deusizine": {
         "ingredients": {
-            "Antibiotic Glue": {
+           "Antibiotic_Glue": {
                 "amount": 1
             },
             "Fentanyl": {
                 "amount": 1
             },
-            "Liquid Oxygenite": {
+           "Liquid_Oxygenite": {
                 "amount": 1
             }
         }
     },
     "Europabrew": {
         "ingredients": {
-            "Alien Blood": {
+           "Alien_Blood": {
                 "amount": 1
             },
             "Calcium": {
@@ -2421,7 +2421,7 @@
             }
         }
     },
-    "Combat Stimulant": {
+   "Combat_Stimulant": {
         "ingredients": {
             "Adrenaline": {
                 "amount": "2"

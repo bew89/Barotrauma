@@ -26,6 +26,7 @@ function replaceData(item) {
             editedItem[i].replace('')
         }
     }
+    console.log(editedItem)
     return editedItem
 }
 
